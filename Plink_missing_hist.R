@@ -1,3 +1,10 @@
+# This script used for plot missing hist.
+# You can get the missing table after run this line 
+#
+# plink -file yourfile --missing #
+# The document need this two file yourfile.ped. yourfile.map.
+# i think you can get it.
+
 indmiss<-read.table(file="plink.imiss", header=TRUE)
 snpmiss<-read.table(file="plink.lmiss", header=TRUE)
 # read data into R
